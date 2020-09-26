@@ -10,7 +10,10 @@ body {
   align-items: center;
 }
 .skill-icon {
-  width: 80px;
+  width: 70px;
+}
+.skill-icon_high {
+  width: 53px;
 }
 .lead {
   font-size: 1.15rem;
@@ -27,4 +30,8 @@ h2 {
 }
 h3 {
   font-size: 1.2rem;
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
 }

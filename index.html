@@ -104,7 +104,7 @@
               <ul>
                 <li>JavaScript, basic Typescript</li>
                 <li>Vue.JS, Vuex, Vue router</li>
-                <li>Node.JS, npm, Express.js</li>
+                <li>Node.JS, npm, Express.js, axios</li>
                 <li>MongoDB, Mongoose</li>
                 <li>Git, Github</li>
                 <li>Command line (Linux based)</li>
@@ -140,6 +140,7 @@
               </ul>
             </div>
           </div>
+
           <!-- english -->
           <div class="row py-2" style="background: tan">
             <!-- english__title -->
@@ -159,17 +160,107 @@
               </ul>
             </div>
           </div>
+
+          <!-- personal skills -->
+          <div class="row py-2" style="background: gainsboro">
+            <!-- personal-skills__title -->
+            <div class="col-12 col-md-3 skill-title">
+              <h3>Personal skills:</h3>
+              <img class="skill-icon_high" src="./img/icons/skills.png" alt="" />
+            </div>
+            <!-- personal skills__content -->
+            <div class="col-12 col-md-9">
+              <ul>
+                <li>
+                  Extremely interested in learning new technologies and resolving issues,
+                  which has been proved while working on my projects
+                </li>
+                <li>
+                  Technical and computer literacy, able to analyze large arrays of
+                  information
+                </li>
+                <li>Fast learner</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- 
-English – Advanced, able to read tutorials and documentation in English with full understanding
-Personal skills
-•	Extremely interested in learning new technologies and coding, as was proved while doing my personal project
-•	General technical and computer literacy, able to analyze new  information 
-•	Always ready for persistent training and working with the new tasks
-•	As proved by the time 
-•	Enjoy learning new things and resolving issues, which has been proved while doing the issue tracker (see projects section below) -->
+      <!-- projects -->
+      <div class="row">
+        <div class="col-12">
+          <h2 class="my-3 text-center">My projects</h2>
+          <div class="row py-2" style="background: rgb(186, 230, 165)">
+            <!-- issue tracker -->
+            <div class="col-lg-6 px-2 my-2">
+              <div class="card">
+                <img
+                  src="./img/issue-tracker2.png"
+                  alt=""
+                  class="card-img-top img-fluid img-thumbnail"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Issue tracker web app</h4>
+                  <div class="card-text">
+                    <p>
+                      The application is a simple issue tracker, in which a user can sign
+                      in and then add, edit and delete issues, as well as change their
+                      status and sort them. Try it out yourself at the link below!
+                    </p>
+                    <p>
+                      The user's data is stored cloud-based MongoDB storage. The app uses
+                      Node.JS, Express with Mongoose and Typescript on Backend; Vue CLI,
+                      Vue Router, Vuex, Typescript and Axios on Frontend. CSS code is
+                      styled according to BEM methodology. Authorisation is done through
+                      Auth0 3rd-party service using JWT. The app is deployed on Heroku
+                      platform.
+                    </p>
+                  </div>
+                  <div class="text-center">
+                    <a
+                      href="https://issue-tracker-wm.herokuapp.com"
+                      class="btn btn-primary mx-2"
+                      >Test the app</a
+                    >
+                    <a
+                      href="https://github.com/winess-me/issue-tracker/"
+                      class="btn btn-secondary mx-2"
+                      >Source code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- portfolio website -->
+            <div class="col-lg-6 px-2 my-2">
+              <div class="card">
+                <img
+                  src="./img/CV.png"
+                  alt=""
+                  class="card-img-top img-fluid img-thumbnail"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Personal portfolio website</h4>
+                  <div class="card-text">
+                    <p>
+                      This is my personal portfolio/resume, which is always up-to-date and
+                      contains all the information and links to my latest projects
+                    </p>
+                    <p>
+                      The website is created using Bootstrap as a CSS framework and SCSS
+                      preprocessor. Hosted on Github Pages.
+                    </p>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-secondary mx-2 text-center">Source code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script

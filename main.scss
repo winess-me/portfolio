@@ -1,9 +1,12 @@
+$background-main: #fdfdfd;
+
 body {
   min-width: 320px;
+  background: $background-main;
 }
 
 .background-light {
-  background: #fff;
+  background: $background-main;
 }
 .background-medium {
   background: #f8f9fa;

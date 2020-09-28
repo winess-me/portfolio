@@ -1,9 +1,10 @@
 body {
   min-width: 320px;
+  background: #fdfdfd;
 }
 
 .background-light {
-  background: #fff;
+  background: #fdfdfd;
 }
 
 .background-medium {

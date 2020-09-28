@@ -1,0 +1,81 @@
+body {
+  min-width: 320px;
+  background: #fdfdfd;
+}
+
+.background-light {
+  background: #fdfdfd;
+}
+
+.background-medium {
+  background: #f8f9fa;
+}
+
+.background-dark {
+  background: #f0f0f0;
+}
+
+.header__contact-icon {
+  padding-right: 5px;
+}
+
+.skill-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-icon {
+  width: 70px;
+}
+
+.skill-icon_high {
+  width: 53px;
+}
+
+.card-container {
+  padding: 0 20px 20px 20px;
+}
+
+.card {
+  border: 3px solid #6c757d;
+}
+
+.lead {
+  font-size: 1.15rem;
+}
+
+li {
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  padding-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.footer__contact-icon {
+  margin: 3px;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */

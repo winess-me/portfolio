@@ -2,7 +2,19 @@ body {
   min-width: 320px;
 }
 
-.contact-icon {
+.background-light {
+  background: #fff;
+}
+
+.background-medium {
+  background: #f8f9fa;
+}
+
+.background-dark {
+  background: #f0f0f0;
+}
+
+.header__contact-icon {
   padding-right: 5px;
 }
 
@@ -20,6 +32,14 @@ body {
   width: 53px;
 }
 
+.card-container {
+  padding: 0 20px 20px 20px;
+}
+
+.card {
+  border: 2px solid #6c757d;
+}
+
 .lead {
   font-size: 1.15rem;
 }
@@ -33,7 +53,9 @@ h1 {
 }
 
 h2 {
+  padding-top: 25px;
   font-size: 1.4rem;
+  font-weight: 600;
 }
 
 h3 {
@@ -51,7 +73,7 @@ h5 {
 }
 
 .footer__contact-icon {
-  margin: 4px;
+  margin: 3px;
   margin-bottom: 15px;
 }
 

@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal porfolio/CV",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winess-me/portfolio.git"
+  },
+  "author": "Vladislav Nikolaenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winess-me/portfolio/issues"
+  },
+  "homepage": "https://winess-me.github.io/portfolio",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

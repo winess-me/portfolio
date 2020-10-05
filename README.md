@@ -4,4 +4,4 @@ This is my personal portfolio, which is always up-to-date and contains all the i
 
 The website is created using Bootstrap and SCSS. 
 
-Hosted on [Github Pages](https://winess-me.github.io/portfolio/)
+Hosted on [Github Pages](https://witness-me.github.io/portfolio/)
